@@ -1,7 +1,8 @@
 'use strict';
 
 const targetBtn = document.getElementById('btn');
+const text = document.getElementById('text');
 
 targetBtn.addEventListener('click', () => {
-    document.getElementById('text').textContent = 'ボタンをクリックしました';
+    text.textContent = 'ボタンをクリックしました';
 });
